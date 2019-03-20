@@ -81,7 +81,7 @@ holiday.each do |season, holiday|
     if supply.include?("BBQ")
      return holiday
 end
-end
+end.flatten
 end 
 end 
 
