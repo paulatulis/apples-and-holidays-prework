@@ -80,7 +80,7 @@ holiday.each do |season, holiday|
   holiday.each do |holiday, supply|
    holiday if supply.include?("BBQ")
 end
-end.flatten
+end.flatten.compact
 end 
 
 
