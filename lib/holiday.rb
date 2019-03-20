@@ -82,7 +82,6 @@ holiday.each do |season, holiday|
 end
 end.flatten
 end 
-end 
 
 
 
